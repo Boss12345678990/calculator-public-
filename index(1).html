@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boss calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <section id="calculator">
+    <div>
+        <input id="displays" placeholder="0" readonly>
+        <div id="keys">
+            <button onclick = "clearall()" class="white">AC</button>
+            <button onclick = "negativesign()"class="white">+/-</button>
+            <button onclick = "percentage()"class="white">%</button>
+            <button onclick = "buttontodisplay('/')"class="yellow">÷</button>
+            <button onclick = "buttontodisplay('7')">7</button>
+            <button onclick = "buttontodisplay('8')">8</button>
+            <button onclick = "buttontodisplay('9')">9</button>
+            <button onclick = "buttontodisplay('*')"class="yellow">*</button>
+            <button onclick = "buttontodisplay('4')">4</button>
+            <button onclick = "buttontodisplay('5')">5</button>
+            <button onclick = "buttontodisplay('6')">6</button>
+            <button onclick = "buttontodisplay('-')"class="yellow">-</button>
+            <button onclick = "buttontodisplay('1')">1</button>
+            <button onclick = "buttontodisplay('2')">2</button>
+            <button onclick = "buttontodisplay('3')">3</button>
+            <button onclick = "buttontodisplay('+')"class="yellow">+</button>
+        </div>
+        <div id="keys2">
+            <button onclick = "buttontodisplay('0')"class="unique">0</button>
+            <button onclick = "buttontodisplay('.')">.</button>
+            <button onclick = "getresult()"class="yellow">=</button>
+        </div>
+    </div>
+</section>
+    <script src="index.js"></script>
+    
+</body>
+</html>
